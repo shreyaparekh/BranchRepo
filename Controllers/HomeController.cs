@@ -15,7 +15,7 @@ namespace WebApplication3.Controllers
 
         public IActionResult Index()
         {
-            var t = "cxcxc";
+            var t = "cxcsxc";
             return View();
         }
 

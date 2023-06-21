@@ -24,6 +24,8 @@ namespace WebApplication3.Controllers
 
         public IActionResult Privacy()
         {
+var t = "dev11111";
+            var t1 = "devdat";
             return View();
         }
 

@@ -10,15 +10,15 @@ namespace WebApplication3.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+              var t = "bug-12";
+
             _logger = logger;
         }
 
         public IActionResult Index()
         {
 
-            var t = "dev11111";
-            var t1 = "devdat";
-            var tw = "s";
+            
             
 
             var t = "bug-12";
@@ -28,14 +28,14 @@ namespace WebApplication3.Controllers
 
         public IActionResult Privacy()
         {
-var t = "dev11111";
-            var t1 = "devdat";
+
             return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+        var t = "dev11111";
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

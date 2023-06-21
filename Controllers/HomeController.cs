@@ -10,6 +10,8 @@ namespace WebApplication3.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+              var t = "bug-12";
+
             _logger = logger;
         }
 
